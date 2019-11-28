@@ -11,7 +11,7 @@ ${"`" + ">top <#>" + "`"} - **check a certain # of top inviters**
 ${"`" + ">membercount" + "`"} - **check total members in server**
 ${"`" + ">set <#channel-name>" + "`"} - **set the bot channel**
 ${"`" + ">set default" + "`"} - **allow bot in all channels**
-**Made by CAPTAIN COOL#0786.**`)
+**Created by Ashwin**`)
   });
 }
 
