@@ -4,7 +4,7 @@ const invites = (msg, numberUses, numberLeft, nextRole) => {
   const richEmbed = new Discord.RichEmbed();
   msg.channel.send({
     embed: richEmbed
-            .setColor('#ffffff')
+            .setColor('RANDOM')
             .setDescription(`**Stats for ${msg.author}**
 
 :ballot_box_with_check: Users Invited: ${numberUses}
