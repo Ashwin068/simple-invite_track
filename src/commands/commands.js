@@ -12,7 +12,7 @@ const commands = (bot, msg, cmd, subcmd) => {
   if (channelPerm !== undefined && currChannel !== `${channelPerm}`) {
     msg.channel.send({
       embed: richEmbed
-              .setColor('#ffffff')
+              .setColor('RANDOM')
               .setDescription(`Please use #${channelPerm} to check referrals.`)
     })
   } else {
