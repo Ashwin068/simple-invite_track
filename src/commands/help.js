@@ -5,7 +5,7 @@ const help = (bot, msg, cmd) => {
 
   msg.channel.send({
     embed: richEmbed
-            .setColor('#ffffff')
+            .setColor('RANDOM')
             .setDescription(`${"`" + ">invites" + "`"} - **check # invites until next role**
 ${"`" + ">top <#>" + "`"} - **check a certain # of top inviters**
 ${"`" + ">membercount" + "`"} - **check total members in server**
