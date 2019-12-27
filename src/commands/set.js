@@ -9,20 +9,20 @@ const set = (msg, cmd, subcmd) => {
     channelPerm = undefined;
     msg.channel.send({
       embed: richEmbed
-              .setColor('#ffffff')
+              .setColor('RANDOM')
               .setDescription(`Referral checking can now be done in any channel.`)
     })
   } else if (checkAdmin(msg) === true) {
     channelPerm = subcmd;
     msg.channel.send({
       embed: richEmbed
-              .setColor('#ffffff')
+              .setColor('RANDOM')
               .setDescription(`Referral checking channel is now ${channelPerm}.`)
     })
   } else {
     msg.channel.send({
       embed: richEmbed
-              .setColor('#ffffff')
+              .setColor('RANDOM')
               .setDescription(`You don't have permission to do this.`)
     })
   }
