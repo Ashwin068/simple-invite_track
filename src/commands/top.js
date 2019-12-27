@@ -21,13 +21,13 @@ const top = (bot, msg, cmd, subcmd) => {
       if (subcmd > 10) {
         msg.channel.send({
           embed: richEmbed
-                  .setColor('#ffffff')
+                  .setColor('RANDOM')
                   .setDescription(`The maximum number is 10. \nHere are the top 10:`)
         });
       }
       msg.channel.send({
         embed: richEmbed
-                .setColor('#ffffff')
+                .setColor('RANDOM')
                 .setDescription(`${completeString}`)
       });
     });
